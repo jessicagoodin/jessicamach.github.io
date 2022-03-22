@@ -1,0 +1,60 @@
+header {
+  color: white;
+  font-family: verdana;
+  background: radial-gradient(circle farthest-side, #046A38, black);
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+#image {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10%;
+}
+
+#img-caption {
+  margin: 10px 0 5px 0;
+  font-size: 13px;
+}
+
+body {
+  background-color: lightgray;
+  color: black;
+  font-family: verdana;
+  text-align: center;
+}
+
+h3 {
+  margin: 30px 0 5px 0; 
+  text-align: center;
+  color: #046A38;
+}
+
+a:hover {
+  color: #046A38;
+}
+
+a:visited {
+  color: gray;
+}
+
+ul {
+  max-width: 400px;
+  text-align: left;
+  margin: 0 auto 50px auto;
+  line-height: 1.5;
+}
+
+li {
+  margin: 30px 5px;
+}
+
+p {
+  max-width: 900px;
+  margin: 20px auto 20px auto; 
+  text-align: center;
+  line-height: 1.5;
+}
