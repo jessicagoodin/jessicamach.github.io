@@ -1,0 +1,61 @@
+body {
+  background: lightgray url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80) no-repeat fixed center;
+  background-size: auto;
+}
+
+h1 {
+  color: gray;
+  font-family: arial, verdana;
+  text-align: center;
+}
+
+#subtitle {
+  color: black;
+  font-family: arial, verdana;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: arial, verdana;
+  text-align: left;
+  font-size: 20px;
+}
+
+#answer {
+  margin: 15px;
+}
+
+#submit-button {
+  margin: auto;
+  width: 80%;
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#survey-form {
+  background-color: rgba(0, 0, 0, .5);
+  width: 1000px;
+  text-align: left;
+  margin: auto;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#field-question {
+  margin: 10px;
+  padding: 10px;
+  font-family: arial, verdana;
+  color: white;
+}
