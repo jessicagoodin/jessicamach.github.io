@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ee368b8e27.js" crossorigin="anonymous"></script>
+  <title>Viking Gym & Fitness</title>
+</head>
+<!--  Learning to wrap in div's and sections for styling still, so if it looks sloppy that's why. Also, building bones of the page first then adding responsiveness as I go, as much as I can think of.  -->
+  
+  <body>
+  <div class="page-wrapper">  
+  <header id="header">
+    <nav id="nav-bar">
+    <img src="https://cdn.dribbble.com/users/1790995/screenshots/14040984/media/3c4b559f1593a699da3d541647dba14c.jpg?compress=1&resize=400x300&vertical=top" id="header-img"><a href=#default></a></img>
+<!--     <a href=#home id="logo">Viking Gym & Fitness</a> -->
+      <div id="navbar-right">
+        <a id="active" 
+           href=#home 
+           class="nav-link">Home</a>
+        <a href=#features 
+           class="nav-link">Features</a>
+        <a href=#products 
+           class="nav-link">Products</a>
+        <a href=#locations 
+           class="nav-link">Locations</a>
+      </div>
+    </nav>
+  </header>
+  <section id="hero">
+  <h2 id="home">Equipping warriors with the best gear, and the perfect place to train.</h2>
+  <div class="email">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email"
+           type="email"
+           name="email"
+         placeholder="Enter your email to subscribe">
+      <p><input type="submit" id="submit" value="Let's go" class="button"></input></form></p>
+  </div>
+  
+<div class="container">
+ <section id="features">
+  <div class="grid">
+<!--Can't seem to get two of the fontawesome icons to load for some reason. Looking into -->
+    <div class="icon"><i class="fa-solid fa-dumbbell fa-4x"></i></div> 
+    <div class="desc">
+      <h2>Made to Last</h2>
+      <p>We know you won't quit, so our equipment won't quit on you.</p>
+    </div>
+   </div>
+   <div class="grid">
+    <div class="icon"><i class="fa-solid fa-shield fa-4x"></i>
+    </div>
+    <div class="desc">
+      <h2>24/7 Warrior Support</h2>
+      <p>Warranties and round-the-clock phone support ensure your back is always covered.</p>
+    </div>
+   </div>
+   <div class="grid">
+    <div class="icon"><i class="fa-solid fa-anchor fa-4x"></i>
+    </div>
+    <div class="desc">
+      <h2>We've Got It</h2>
+      <p>Our variety ensures that anything you need, we've got, hands down.</p>
+    </div>
+   </div>
+  </section>
+  
+  <section id="products">
+    <h2 class="products-heading">See our products featured on YouTube:</h2>
+<!-- Youtube always makes this page load very slowly. I know what big O notation is with JS but I'm assuming it's the same concept but with time it takes to retrieve from YT. Using my own upload would be better I think.   -->
+    <div class="video">
+    <iframe id="video"
+            width="560" 
+            height="315"
+      src="https://www.youtube.com/embed/wAXrfKS0-w0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+               allowfullscreen></iframe>
+    </div>
+  </section>
+  
+ <section id="locations">
+   <h2 class="map-heading">For locations, click on your state:</h2>
+<!--  This is not an interactive map yet but if I knew how to write that in here, I would! For now it's a linked jpeg to fill the space.   -->
+   <img class="map" src="http://www.clker.com/cliparts/A/2/1/z/D/p/turquoise-u-s-map.svg"></img>
+ </section>
+ 
+  <footer>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    <p class="foot">Copyright 2022, Viking Gym & Fitness</p>
+  </footer>
+  
+ </div>
+  
+</body>
+</html>
