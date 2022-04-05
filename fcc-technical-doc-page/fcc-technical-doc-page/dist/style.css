@@ -1,0 +1,120 @@
+main {
+  background-color: #d9d9d9;
+  font-family: Arial, Helvetica;
+  color: black;
+  margin-left: 300px;
+  padding: 5px 15px 15px 15px;
+}
+
+#header {
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  margin: 0px;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+header #header-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#navbar {
+  float: left;
+  text-align: left;
+  padding: 10px 15px 15px 10px;
+  overflow: hidden;
+  line-height: 25px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 15px 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 4px;
+  display: block;
+}
+
+#navbar a:hover {
+  color: white;
+  text-decoration: none;
+  margin: 15px 20px;
+  background-color: #ffc642;
+  transition: background-color 0.5s;
+  transition: color 0.25s;
+}
+
+#navbar ul {
+  height: 80%;
+  padding: 0;
+}
+
+#navbar li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 750px;) {
+  width: 100%;
+}
+
+section header {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2;
+  text-shadow: 2px 2px 5px #ffc642;
+}
+
+table {
+  width: 80%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.th-1 {
+  background-color: rgba(255, 198, 66, 0.6);
+  text-transform: uppercase;
+  width: 40%;
+}
+
+.th-2 {
+  background-color: white;
+}
+
+.btn {
+  background-color: #ffc642;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #4d4d4d;
+  transition: background-color .5s;
+  transition: color .25s;
+}
+
+#form {
+  text-align: center;
+}
